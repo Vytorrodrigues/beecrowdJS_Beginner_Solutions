@@ -1,9 +1,9 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
 
-var A = parseInt(lines.shift());
-var B = parseInt(lines.shift());
+const A = parseInt(lines.shift());
+const B = parseInt(lines.shift());
 
-var X = A + B;
+const X = A + B;
 
 console.log(`X = ${X}`);

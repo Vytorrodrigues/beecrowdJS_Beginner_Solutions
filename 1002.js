@@ -1,10 +1,10 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+const input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const lines = input.split('\n');
 
-var raio = parseFloat(lines.shift());
+const raio = parseFloat(lines.shift());
 
-var n = 3.14159;
+const n = 3.14159;
 
-var area = n * Math.pow(raio, 2);
+const area = n * Math.pow(raio, 2);
 
 console.log(`A=${area.toFixed(4)}`);
